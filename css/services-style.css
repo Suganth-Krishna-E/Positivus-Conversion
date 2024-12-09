@@ -34,6 +34,10 @@
     display: flex;
 }
 
+.dis-gr {
+    display: grid;
+}
+
 .li-wo-points {
     list-style: none;
 }
@@ -42,7 +46,7 @@
 /* Header properties */
 
 header {
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
 }
 
 .header-services {
@@ -62,4 +66,110 @@ header {
     line-height: 1.8rem;
     font-size: 1.1rem;
 }
+
+
+/* Main properties */
+
+main {
+    box-sizing: border-box;
+    grid-template-columns: auto auto;
+    margin: 0;
+    padding: 1rem;
+}
+
+.poster-box {
+    box-sizing: border-box;
+    padding: 2rem;
+    margin: 2rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+
+.title-link {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.link-poster a::before {
+    content: ;
+}
+
+.link-poster span {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    border: 2px solid black;
+}
+
+.link-poster {
+    padding: 1rem;
+}
+
+.link-poster a {
+    text-decoration: none;
+    color: black;
+}
+
+.poster-image img {
+    width: 15em;
+    height: 15em;
+    object-fit: cover;
+}
+
+.poster-box:nth-child(3n + 1) {
+    background-color: aliceblue;
+}
+
+.poster-box:nth-child(3n + 1) .title-poster {
+    background-color: rgb(195, 230, 157);
+    color: black;
+}
+
+.poster-box:nth-child(3n + 1) a span {
+    color: aliceblue;
+    background-color: black;
+}
+
+.poster-box:nth-child(3n + 2) {
+    background-color: rgb(187, 227, 155);
+}
+
+.poster-box:nth-child(3n + 2) .title-poster {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.poster-box:nth-child(3n + 2) a span {
+    color: aliceblue;
+    background-color: black;
+}
+
+.poster-box:nth-child(3n + 3) {
+    background-color: rgb(76, 86, 69);
+    color: white;
+}
+
+.poster-box:nth-child(3n + 3) .title-poster {
+    background-color: rgb(234, 245, 225);
+    color: black;
+}
+
+.poster-box:nth-child(3n + 3) a{
+    color: white;
+}
+
+.poster-box:nth-child(3n + 3) a span{
+    color: black;
+    background-color: aliceblue;
+}
+
+
 
