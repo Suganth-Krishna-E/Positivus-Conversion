@@ -1,6 +1,7 @@
 /* Common properties */
 
 * {
+    font-family: Georgia, serif;
     margin: 0;
     padding: 0;
 }
@@ -79,10 +80,11 @@ header {
 
 main {
     padding: 5rem;
-    margin: 2rem 3rem;
+    margin: 4rem;
 }
 
 .data-button {
+    width: 40rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -94,7 +96,32 @@ main {
 }
 
 .text2 {
+    line-height: 2rem;
     font-size: 1.2rem;
 }
 
+.button-data1 button {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    width: 13rem;
+    height: 4rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* footer properties */
+
+footer {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer img {
+    width: 10rem;
+    height: 4rem;
+    object-fit: contain;
+}
 
