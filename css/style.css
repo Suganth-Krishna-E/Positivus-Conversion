@@ -75,6 +75,12 @@ header {
     padding: 0.5rem 1.5rem;
 }
 
+.menu-items ul li a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
 
 /* Main properties */
 
