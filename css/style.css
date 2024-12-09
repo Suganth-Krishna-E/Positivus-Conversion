@@ -1,0 +1,73 @@
+/* Common properties */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wid13 {
+    width: 33.33%;
+}
+
+.wid23 {
+    width: 66.66%;
+}
+
+.wid12 {
+    width: 50%;
+}
+
+.wid1 {
+    width: 100%;
+}
+
+.dis-ib {
+    display: inline-block;
+}
+
+.dis-i {
+    display: inline;
+}
+
+.dis-fl {
+    display: flex;
+}
+
+.li-wo-points {
+    list-style: none;
+}
+
+/* header properties */
+
+.logo-name {
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.logo-name img {
+    padding: 2%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.menu-items {
+    height: inherit;
+    align-items: center;
+}
+
+.menu-items ul {
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0 3em;
+}
+
+.menu-items li:nth-child(6) {
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+
