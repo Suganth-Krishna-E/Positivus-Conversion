@@ -7,17 +7,36 @@
     <link rel="stylesheet" href="/Positivus-Conversion/css/contact-style.css">
 </head>
 <body>
-    <header class="wid1 dis-fl">
-        <div class="header-services">Services</div>
+    <header class="dis-fl">
+        <div class="header-services">Contact Us</div>
         <div class="header-description">Connect with Us: Let's Discuss Your <br> Digital Marketing Needs</div>
     </header>
     <main>
-        <form action="#">
-            <input type="radio" id="say-hi" name="say-hi">
-            <label for="say-hi">Say Hi</label>
-            <input type="radio" id="get-quote" name="get-quote">
-            <label for="get-quote">Get Quote</label>
-        </form>
+        <div class="main-container">
+            <form action="#" class="dis-fl">
+                <div class="selector-radio">
+                    <input type="radio" id="say-hi" name="type-of-request">
+                    <label for="say-hi"><span></span> Say Hi</label>
+                    <input type="radio" id="get-quote" name="type-of-request">
+                    <label for="get-quote"><span></span> Get Quote</label>
+                </div>
+                <div>
+                    <label for="user-name">Name</label><br>
+                    <input type="text" id="user-name" name="user-name" placeholder="Name">
+                </div>
+                <div>
+                    <label for="user-mail">Email</label><br>
+                    <input type="email" id="user-mail"  name="user-mail" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea type="text" id="message" rows="5"  name="message" required></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="submit-btn">Send Message</button>
+                </div>
+            </form>
+        </div>
     </main>
 </body>
 </html>
