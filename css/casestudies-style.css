@@ -1,0 +1,106 @@
+/* Common properties */
+
+* {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wid13 {
+    width: 33.33%;
+}
+
+.wid23 {
+    width: 66.66%;
+}
+
+.wid12 {
+    width: 50%;
+}
+
+.wid1 {
+    width: 100%;
+}
+
+.wid34 {
+    width: 80%;
+}
+
+.dis-ib {
+    display: inline-block;
+}
+
+.dis-i {
+    display: inline;
+}
+
+.dis-fl {
+    display: flex;
+}
+
+.dis-gr {
+    display: grid;
+}
+
+.li-wo-points {
+    list-style: none;
+}
+
+
+/* Header properties */
+
+header {
+    margin-top: 2rem;
+    padding: 1rem 5rem;
+    width: 80%;
+    margin: auto;
+}
+
+.header-title {
+    height: 1rem;
+    vertical-align: middle;
+    font-size: 2rem;
+    background-color: rgb(204, 243, 165);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.header-description {
+    width: 45%;
+    margin: 0 1rem;
+    padding-left: 1rem;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+
+
+/* Main content style */
+
+.studies-parent {
+    width: 80%;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: rgb(33, 14, 72);
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.content-box {
+    border-right: 2px solid white;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-box .text {
+    line-height: 1.5rem;
+}
+
+.button-learn-more {
+    padding: 2rem 0;
+    color: rgb(159, 222, 151);
+}
+
