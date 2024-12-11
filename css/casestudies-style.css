@@ -118,18 +118,14 @@ header {
 }
 
 .working-process-content {
-    width: 80%;
-    margin: auto;
-    height: fit-content;
-    padding: 2rem;
-}
-
-.visible-content {
     justify-content: space-between;
     background-color: rgb(210, 220, 228);
     border-radius: 2rem;
     height: fit-content;
     box-shadow: 1rem 0.5rem grey;
+    width: 80%;
+    margin: auto;
+    height: fit-content;
 }
 
 .numbers-content {
@@ -142,7 +138,7 @@ header {
     margin: 2rem;
 }
 
-.expandable-radio {
+.expandable-option label{
     font-size: 4rem;
     margin: 3rem 2rem;
     padding: 1rem 0.5rem 1.5rem 0.5rem;
@@ -155,6 +151,22 @@ header {
 
 .hidden-content {
     visibility: hidden;
+    width: 0;
+    max-height: 0;
+    /* opacity: 0;
+    transition: all 0.3s ease;
+    overflow: hidden; */
+}
+
+.expandable-option input[type="checkbox"] {
+    display: none;
+}
+
+.expandable-option input[type="checkbox"]:checked ~ div {
+    visibility: visible;
+    width: max-content;
+    height: auto;
+    margin-top: 1rem;
 }
 
 
