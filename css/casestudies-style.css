@@ -23,6 +23,10 @@
 }
 
 .wid34 {
+    width: 75%;
+}
+
+.wid45 {
     width: 80%;
 }
 
@@ -104,8 +108,9 @@ header {
 }
 
 .header-content {
+    margin: 5rem auto 0 auto;
     flex-direction: row;
-    padding: 2rem;
+    padding: 2rem 0 0;
 }
 
 .button-learn-more {
@@ -114,7 +119,8 @@ header {
 }
 
 .working-process-header {
-    width: 90%;
+    margin: auto;
+    box-sizing: content-box;
 }
 
 .working-process-content {

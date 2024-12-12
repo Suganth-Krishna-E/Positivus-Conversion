@@ -23,6 +23,10 @@
 }
 
 .wid34 {
+    width: 75%;
+}
+
+.wid45 {
     width: 80%;
 }
 
@@ -50,7 +54,9 @@
 /* Header properties */
 
 header {
-    padding: 1rem 5rem;
+    padding: 2rem 3rem 0.5rem 3rem;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 .header-services {
@@ -77,8 +83,9 @@ header {
 main {
     box-sizing: border-box;
     grid-template-columns: auto auto;
-    margin: 0;
+    margin: auto;
     padding: 1rem;
+    box-sizing: content-box;
 }
 
 .poster-box {
