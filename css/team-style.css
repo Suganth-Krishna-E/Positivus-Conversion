@@ -46,6 +46,14 @@
     list-style: none;
 }
 
+.po-rel {
+    position: relative;
+}
+
+.po-abs {
+    position: absolute;
+}
+
 
 /* Header properties */
 
@@ -72,4 +80,76 @@ header {
     padding-left: 1rem;
     line-height: 1.8rem;
     font-size: 1.1rem;
+}
+
+/* main section properties */
+
+.teams-container {
+    width: 80%;
+    margin: auto;
+    grid-template-columns: auto auto auto;
+}
+
+.team-member {
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    flex-direction: column;
+    box-shadow: 0.3rem 0.3rem;
+}
+
+.team-member-photo-name {
+    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.member-name {
+    margin: 2rem;
+}
+
+.member-name h4 {
+    margin: 0.3rem;
+}
+
+.member-name h6 {
+    margin: 0.2rem;
+}
+
+.link-member img {
+    height: 0.2rem;
+    width: 0.2rem;
+    object-fit: cover;
+}
+
+.link-member {
+    right: 0.1rem;
+    top: 0.1rem;
+}
+
+.team-member-photo-name img {
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+}
+
+.team-member-description {
+    padding: 1rem;
+    border-top: 2px solid black;
+}
+
+/* Footer container properties */
+
+.see-all-team {
+    margin: auto;
+    justify-content: flex-end;
+}
+
+.see-all-team button {
+    background-color: rgb(67, 64, 60);
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
 }
