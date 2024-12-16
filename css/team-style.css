@@ -101,7 +101,6 @@ header {
     border: 2px solid black;
     border-radius: 2rem;
     flex-direction: column;
-    box-shadow: 0.3rem 0.3rem;
 }
 
 .team-member-photo-name {
@@ -157,4 +156,15 @@ header {
     font-size: 1rem;
     padding: 1rem 4rem;
     border-radius: 1rem;
+}
+
+/* CSS Effects on user action */
+
+.team-member:hover {
+    box-shadow: 0.3rem 0.3rem;
+}
+
+.see-all-team button:hover {
+    background-color: greenyellow;
+    color: black;
 }
