@@ -70,7 +70,6 @@ header {
 }
 
 .header-description {
-    width: 45%;
     margin: 0 1rem;
     padding-left: 1rem;
     line-height: 1.8rem;
@@ -111,7 +110,7 @@ main {
     text-align: center;
     display: inline-block;
     font-size: 1.5rem;
-    padding: 0.2rem;
+    padding: 0.2rem 0.1rem 0.4rem 0.1rem;
     border-radius: 50%;
     margin-right: 1rem;
     border: 2px solid black;
@@ -185,6 +184,7 @@ footer {
     width: auto;
     margin-left: 7rem;
     background-color: aliceblue;
+}
 
 .footer-left {
     flex-direction: column;
@@ -192,15 +192,15 @@ footer {
     padding: 4rem;
 }
 
-.footer-left .text-lvl1 {
+.text-lvl1 {
     font-size: 3rem;
 }
 
-.footer-left .text-lvl2 {
+.text-lvl2 {
     font-size: 1rem;
 }
 
-.footer-left .get-proposal button {
+.get-proposal button {
     background-color: rgb(67, 64, 60);
     color: aliceblue;
     font-size: 1rem;
@@ -214,4 +214,491 @@ footer {
 }
 
 
+/* Responsive Designs */
+  
+  
+@media (min-width: 1200px) and (max-width: 1339px) {
 
+    .wid45 {
+        width: 90%;
+    }
+
+    .header-services {
+        font-size: 1.6rem;
+    }
+
+    .header-description {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        vertical-align: middle;
+    }
+
+    .poster-box {
+        padding: 1.8rem;
+        margin: 1.8rem;
+    }
+
+    .title-link {
+        font-size: 1.3rem;
+        margin-top: 2.5rem;
+    }
+
+    .link-poster a {
+        font-size: 1.3rem;
+    }
+
+    .link-poster {
+        padding: 0;
+    }
+
+    .poster-image img {
+        width: 13em;
+        height: 13em;
+    }
+
+    .text-lvl1 {
+        font-size: 2.8rem;
+    }
+
+    .text-lvl2 {
+        font-size: 1.3rem;
+    }
+}
+  
+  
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .wid45 {
+        width: 90%;
+    }
+
+    .header-services {
+        font-size: 1.5rem;
+    }
+
+    .header-description {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+        vertical-align: middle;
+    }
+
+    .poster-box {
+        padding: 1.7rem;
+        margin: 1.7rem;
+    }
+
+    .title-link {
+        font-size: 1.2rem;
+        margin-top: 2.4rem;
+    }
+
+    .link-poster a {
+        font-size: 1.2rem;
+    }
+
+    .link-poster {
+        padding: 0;
+    }
+
+    .poster-image img {
+        width: 11em;
+        height: 11em;
+    }
+
+    .text-lvl1 {
+        font-size: 2.3rem;
+    }
+
+    .text-lvl2 {
+        font-size: 1.1rem;
+    }
+
+    .get-proposal button {
+        font-size: 1rem
+    }
+}
+  
+  
+@media (min-width: 992px) and (max-width: 1023px) {
+    .wid45 {
+        width: 90%;
+    }
+
+    .header-services {
+        font-size: 1.3rem;
+    }
+
+    .header-description {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        vertical-align: middle;
+    }
+
+    .poster-box {
+        padding: 1.6rem;
+        margin: 1.6rem;
+    }
+
+    .title-link {
+        font-size: 1.1rem;
+        margin-top: 2.3rem;
+    }
+
+    .link-poster a {
+        font-size: 1.1rem;
+    }
+
+    .link-poster {
+        padding: 0;
+    }
+
+    .poster-image img {
+        width: 10em;
+        height: 10em;
+    }
+
+    .text-lvl1 {
+        font-size: 2.2rem;
+    }
+
+    .text-lvl2 {
+        font-size: 1rem;
+    }
+
+    .get-proposal button {
+        font-size: 0.9rem
+    }
+}
+  
+  
+@media (min-width: 768px) and (max-width: 991px){
+    .wid45 {
+        width: 90%;
+    }
+
+    .header-services {
+        font-size: 1.2rem;
+    }
+
+    .header-description {
+        font-size: 01rem;
+        line-height: 1.2rem;
+        vertical-align: middle;
+    }
+
+    .wid12 {
+        width: 80%;
+    }
+
+    .poster-box {
+        padding: 1.5rem;
+        margin: 1.5rem auto;
+    }
+
+    .title-link {
+        font-size: 1rem;
+        margin-top: 2.2rem;
+    }
+
+    .link-poster a {
+        font-size: 1rem;
+    }
+
+    .link-poster {
+        padding: 0;
+    }
+
+    .poster-image img {
+        width: 12em;
+        height: 9em;
+    }
+
+    main {
+        justify-content: center;
+        grid-template-columns: 80%;
+    }
+
+    .text-lvl1 {
+        font-size: 1.5rem;
+    }
+
+    .text-lvl2 {
+        font-size: 0.7rem;
+    }
+
+    .get-proposal button {
+        font-size: 0.5rem
+    }
+
+    footer {
+        width: 80%;
+        margin: auto;
+    }
+
+    .footer-text {
+        flex-direction: column;
+    }
+
+    .footer-right img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
+  
+  
+@media (min-width: 640px) and (max-width: 767px) {
+    .wid45 {
+        width: 90%;
+    }
+
+    .wid12 {
+        width: 50%;
+    }
+
+    .header-services {
+        font-size: 1rem;
+        height: fit-content;
+    }
+
+    .header-description {
+        text-align: justify;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        vertical-align: middle;
+    }
+
+    .poster-box {
+        padding: 1.5rem;
+        margin: 1.5rem auto;
+    }
+
+    .title-link {
+        font-size: 1rem;
+        margin-top: 2.2rem;
+    }
+
+    .link-poster a {
+        font-size: 1rem;
+    }
+
+    .link-poster {
+        padding: 0;
+    }
+
+    .poster-image img {
+        width: 10em;
+        height: 9em;
+    }
+
+    main {
+        justify-content: center;
+        grid-template-columns: 80%;
+    }
+
+    .text-lvl1 {
+        font-size: 1.5rem;
+    }
+
+    .text-lvl2 {
+        font-size: 0.7rem;
+    }
+
+    .get-proposal button {
+        margin: auto;
+        font-size: 0.5rem
+    }
+
+    .get-proposal {
+        align-self: center;
+        margin: auto;
+    }
+
+    footer {
+        width: 70%;
+        margin: auto;
+    }
+
+    .footer-text {
+        flex-direction: column;
+    }
+
+    .footer-right img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
+  
+  
+@media (min-width: 480px) and (max-width: 639px) {
+    .wid45 {
+        width: 90%;
+    }
+
+    .header-services {
+        font-size: 1.2rem;
+    }
+
+    .header-description {
+        font-size: 01rem;
+        line-height: 1.2rem;
+        vertical-align: middle;
+    }
+
+    .wid12 {
+        width: 80%;
+    }
+
+    .poster-box {
+        flex-direction: column-reverse;
+        padding: 1.5rem;
+        margin: 1.5rem auto;
+    }
+
+    .title-link {
+        gap: 1rem;
+        font-size: 1rem;
+        margin-top: 2.2rem;
+    }
+
+    .link-poster a {
+        font-size: 1rem;
+    }
+
+    .link-poster {
+        padding: 0;
+    }
+
+    .link-poster span {
+        font-size: 1rem;
+        padding: 0.2rem 0.05rem 0.003rem 0.05rem;
+    }
+
+    .poster-image img {
+        width: 12em;
+        height: 9em;
+    }
+
+    main {
+        justify-content: center;
+        grid-template-columns: 80%;
+    }
+
+    .text-lvl1 {
+        font-size: 1.5rem;
+    }
+
+    .text-lvl2 {
+        font-size: 0.7rem;
+    }
+
+    .get-proposal button {
+        font-size: 0.5rem
+    }
+
+    footer {
+        width: 80%;
+        margin: auto;
+    }
+
+    .footer-text {
+        flex-direction: column;
+    }
+
+    .footer-right img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
+  
+  
+
+  
+@media (min-width: 320px) and (max-width: 479px) {
+    .wid45 {
+        width: 90%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .header-services {
+        font-size: 1.2rem;
+    }
+
+    .header-description {
+        font-size: 01rem;
+        line-height: 1.2rem;
+        vertical-align: middle;
+    }
+
+    .wid12 {
+        width: 80%;
+    }
+
+    .poster-box {
+        flex-direction: column-reverse;
+        padding: 1.5rem;
+        margin: 1.5rem auto;
+    }
+
+    .title-link {
+        gap: 1rem;
+        font-size: 1rem;
+        margin-top: 2.2rem;
+    }
+
+    .link-poster a {
+        font-size: 1rem;
+    }
+
+    .link-poster {
+        padding: 0;
+    }
+
+    .link-poster span {
+        font-size: 1rem;
+        padding: 0.2rem 0.05rem 0.003rem 0.05rem;
+    }
+
+    .poster-image img {
+        width: 12em;
+        height: 9em;
+    }
+
+    main {
+        justify-content: center;
+        grid-template-columns: 80%;
+    }
+
+    .text-lvl1 {
+        font-size: 1.5rem;
+    }
+
+    .text-lvl2 {
+        font-size: 0.7rem;
+    }
+
+    .get-proposal button {
+        font-size: 0.5rem
+    }
+
+    footer {
+        width: 80%;
+        margin: auto;
+    }
+
+    .footer-text {
+        flex-direction: column;
+    }
+
+    .footer-right img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
