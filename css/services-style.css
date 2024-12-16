@@ -613,8 +613,6 @@ footer {
 }
   
   
-
-  
 @media (min-width: 320px) and (max-width: 479px) {
     .wid45 {
         width: 90%;
@@ -623,7 +621,7 @@ footer {
     header {
         flex-direction: column;
         align-items: center;
-        gap: 0.5em;
+        gap: 1rem;
     }
 
     .header-services {
