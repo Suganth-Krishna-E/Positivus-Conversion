@@ -128,7 +128,6 @@ header {
     background-color: rgb(221, 225, 229);
     border-radius: 2rem;
     height: fit-content;
-    box-shadow: 1rem 0.5rem grey;
     width: 80%;
     margin: 2rem auto;
     height: fit-content;
@@ -139,7 +138,6 @@ header {
     background-color: rgb(204, 243, 165);
     border-radius: 2rem;
     height: fit-content;
-    box-shadow: 1rem 0.5rem grey;
     width: 80%;
     margin: 2rem auto;
     height: fit-content;
@@ -194,7 +192,11 @@ header {
     padding: 2rem 0;
 }
 
+/* CSS Effects on user actions */
 
+.working-process-content:hover {
+    box-shadow: 1rem 0.5rem grey;
+}
 /* Responsive Designs */
   
   
@@ -332,4 +334,6 @@ header {
         line-height: 1.2rem;
         vertical-align: middle;
     }
+}.working-process-content-first:hover {
+    box-shadow: 1rem 0.5rem grey;
 }

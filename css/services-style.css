@@ -93,7 +93,7 @@ main {
     margin: 2rem;
     border: 2px solid black;
     border-radius: 3rem;
-    box-shadow: 0.1em 0.5em rgba(0, 0, 0, 0.6);
+    /* box-shadow: 0.1em 0.5em rgba(0, 0, 0, 0.6); */
 }
 
 .title-link {
@@ -214,6 +214,7 @@ footer {
 }
 
 
+/* CSS Effects on user action */
 /* Responsive Designs */
   
   
@@ -699,4 +700,11 @@ footer {
         width: 0;
         height: 0;
     }
+}.poster-box:hover {
+    box-shadow: 0.1em 0.5em rgba(0, 0, 0, 0.6);
+}
+
+.get-proposal button:hover {
+    background-color: greenyellow;
+    color: black;
 }
