@@ -90,6 +90,7 @@ header {
 }
 
 .menu-items ul li {
+    border-top: 0.2rem solid transparent;
     padding: 2rem;
     font-size: 1.2rem;
 }
@@ -152,6 +153,7 @@ footer {
 }
 
 footer img {
+    border: 0.2rem solid transparent;
     width: 10rem;
     height: 4rem;
     object-fit: contain;
@@ -394,7 +396,6 @@ footer img {
     }
 }
   
-  
 @media (min-width: 320px) and (max-width: 479px) {
     header {
         flex-direction: column;
@@ -412,6 +413,7 @@ footer img {
     }
 
     .menu-items ul li {
+        border-top: 0.2rem solid transparent;
         padding: 0.1rem;
         font-size: 0.45rem;
     }
@@ -458,5 +460,20 @@ footer img {
         width: 1.5rem;
         height: 1rem;
     }
+}
+  
+/* CSS Hover effects */
+
+.menu-items ul li:hover {
+    border-top: 0.2rem solid orange ;
+}
+
+.button-data1:hover button {
+    color: black;
+    background-color: rgb(171, 245, 74);
+}
+
+footer img:hover {
+    border: 0.2rem solid rgb(0, 0, 0);;
 }
   

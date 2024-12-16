@@ -176,3 +176,11 @@ input[type="radio"] {
 .selector-radio label:hover span {
     border-color: #4CAF50;
 }
+
+/* CSS Effects on user action */
+
+form button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
